@@ -1,33 +1,31 @@
 import React from 'react'
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import javascript from '../assets/javascript.png'
-import github from '../assets/github.png'
+import Image from "next/image"
+
 
 const Experience = () => {
 
     const experience = [
         {
             id: 1,
-            src: html,
+            src: '../assets/html.png',
             title: 'HTML',
             style: 'hover:shadow-orange-500',
         },
         {
             id: 2,
-            src: css,
+            src: '../assets/css.png',
             title: 'CSS',
             style: 'hover:shadow-blue-500',
         },
         {
             id: 3,
-            src: javascript,
+            src: '../assets/javascript.png',
             title: 'Javascript',
             style: 'hover:shadow-yellow-500',
         },
         {
             id: 4,
-            src: github,
+            src: '../assets/github.png',
             title: 'GitHub',
             style: 'hover:shadow-gray-500',
         },
@@ -50,7 +48,7 @@ const Experience = () => {
                 experience.map(({id,src,title,style}) =>(
                     <div key={id} 
                     className={`shadow-md hover:scale-105 duration-300 py-2 rounded-lg ${style}`}>
-                    <img src={src} alt="" className='w-20 mx-auto' />
+                    <Image src={src} alt="" className='w-20 mx-auto' />
                 <p className='mt-4 text-white'>{title}</p>
             </div>
                 ))

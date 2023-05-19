@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 import HeroImage from "../assets/heroImage.png";
 import {MdKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
@@ -19,14 +20,14 @@ const Home = () => {
                 <div>
                     <Link to='contact' smooth duration={500} className="group text-black w-fit px-6 py-3 my-2 flex items-center bg-[#eeeeee] rounded-md cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-105 duration-300 hover:ease-in-out drop-shadow-lg">
                         Contact
-                        <span className="group-hover:rotate-90 duration-300">
-                            <MdKeyboardArrowRight size={25} className="ml-1"/>
+                        <span className="group-hover:rotate-90 duration-300 ml-1">
+                            <MdKeyboardArrowRight size={25} />
                         </span>
                     </Link>
                 </div>
             </div>
             <div>
-                <img src={HeroImage} alt="my profile" className="rounded-2xl mt-10 mx-auto w-2/3 md:w-full md:ml-20 drop-shadow-lg" />
+                <Image src={HeroImage} alt="my profile" className="rounded-2xl mt-10 mx-auto w-2/3 md:w-full md:ml-20 drop-shadow-lg" />
             </div>
         </div>
     </div>

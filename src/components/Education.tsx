@@ -1,26 +1,24 @@
 import React from 'react'
-import sd from '../assets/education/sd.jpg'
-import smp from '../assets/education/smp.jpeg'
-import smk from '../assets/education/smk.jpg'
+import Image from "next/image"
 
 const Education = () => {
 
     const education = [
         {
             id: 1,
-            src: sd,
+            src: '../assets/education/sd.jpg',
             title: 'Primary',
             title2: 'SD Pelita Bangsa 2012 - 2018',
         },
         {
             id: 2,
-            src: smp,
+            src: '../assets/education/smp.jpeg',
             title: 'Junior High',
             title2: 'SMP Negeri 4 Denpasar 2018 - 2021',
         },
         {
             id: 3,
-            src: smk,
+            src: '../assets/education/smk.jpg',
             title: 'High School',
             title2: 'SMK Wira Harapan 2021 - Now',
         },
@@ -39,7 +37,7 @@ const Education = () => {
                     education.map(({id, src, title, title2}) => (
 
                     <div key={id} className='drop-shadow-lg rounded-lg'>
-                    <img src={src} alt="" className='rounded-lg'/>
+                    <Image src={src} alt="" className='rounded-lg'/>
                     <div className='py-2 m-4'>
                         <p>{title}</p>
                         <p>{title2}</p>
