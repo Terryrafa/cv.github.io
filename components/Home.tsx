@@ -1,7 +1,7 @@
 import HeroImage from "../components/assets/heroImage.png";
 import {MdKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
-import 'next/image'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <img src={HeroImage} alt="my profile" className="rounded-2xl mt-10 mx-auto w-2/3 md:w-full md:ml-20 drop-shadow-lg" />
+                <Image src={HeroImage} alt="my profile" className="rounded-2xl mt-10 mx-auto w-2/3 md:w-full md:ml-20 drop-shadow-lg" />
             </div>
         </div>
     </div>

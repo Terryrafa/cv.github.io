@@ -5,6 +5,10 @@
  import { useState } from 'react'
  import {Link} from 'react-scroll'
  import About from '../components/About'
+ import Home from '../components/Home'
+ import Education from '../components/Education'
+ import Experience from '../components/Experience'
+ import Contact from '../components/Contact';
  
  const Navbar = () => {
 
@@ -62,6 +66,9 @@
             </div>
             <Home></Home>
             <About></About>
+            <Education></Education>
+            <Experience></Experience>
+            <Contact></Contact>
         </div>
    )
  }
