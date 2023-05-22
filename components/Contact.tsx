@@ -15,7 +15,7 @@ export default function Contact() {
 
                     <textarea placeholder='Enter your message' name="message" className='p-2 bg-transparent border-2 rounded-md text-[#ff785d] focus:outline-none h-52'></textarea>
 
-                    <button className='text-black w-fit px-6 py-3 my-8 mx-auto flex items-center bg-[#eeeeee] rounded-md cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-110 duration-300 hover:ease-in-out drop-shadow-lg'>Let's talk</button>
+                    <button className='text-black w-fit px-6 py-3 my-8 mx-auto flex items-center bg-[#eeeeee] rounded-md cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-110 duration-300 hover:ease-in-out drop-shadow-lg'>{`Let&apos;s talk`}</button>
                 </form>
             </div>
         </div>

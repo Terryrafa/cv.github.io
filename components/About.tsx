@@ -45,12 +45,12 @@ export default function About() {
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-[#f4a33d] ">About</p>
             </div>
-            <p className="text-xl mt-10 ">Hi, I'm Terry Davis Raffael, but all my friends used to call me raffael or rafa, I'm a student from SMK Wira Harapan. I have 3 year's of experience at programing, I've been programing since 2020. The only langueges that I've been learning was Html, CSS, JavaScript, php, and C++. </p>
+            <p className="text-xl mt-10">{`Hi, I&apos;m Terry Davis Raffael, but all my friends used to call me raffael or rafa, I&apos;m a student from SMK Wira Harapan. I have 3 year&apos;s of experience at programing, I&apos;ve been programing since 2020. The only langueges that I&apos;ve been learning was Html CSS, JavaScript, php, and C++.`}</p> 
             
             <br />
 
-            <p className="text-xl  ">My hobbies are Programing and Photography. I am still learning new langueges such as Next.Js, React, TypeScript, and tailwind. Yes, I did mention Photography, why did i mention this? it's because i love taking pictures most of my website is using my own shot of picture's. If you are interested on my picture's 
-            <a className="border-b-4 border-[#f4a33d] cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-105 duration-300 hover:ease-in-out drop-shadow-lg hover:rounded-lg hover:border-transparent hover:p-1" href="https://www.instagram.com/justme.raffael/"> Click here</a></p>
+            <p className="text-xl ">{`My hobbies are Programing and Photography. I am still learning new langueges such as Next.Js, React, TypeScript, and tailwind. Yes, I did mention Photography, why did i mention this? it&apos;s because i love taking pictures most of my website is using my own shot of picture&apos;s. If you are interested on my picture&apos;s 
+            <a className="border-b-4 border-[#f4a33d] cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-105 duration-300 hover:ease-in-out drop-shadow-lg hover:rounded-lg hover:border-transparent hover:p-1" href="https://www.instagram.com/justme.raffael/"> Click here</a>`}</p>
 <br />
             <div className='max-w-screen-lg p-4 flex flex-col  mx-auto pt-40 '>
           <ul className='grid sm:grid-cols-1 md:grid-cols-4 gap-8  sm:px-0'>
