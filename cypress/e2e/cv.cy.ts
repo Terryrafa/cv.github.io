@@ -33,7 +33,7 @@ describe('desktop page', () => {
     cy.get(':nth-child(4) > [data-cy="social"]').click().wait(1700)
   }),
   
-  it('should redirect the user to a success page when the form when the users press submit and return to main page when user press return - desktop', () =>{
+  it('should redirect the user to the success page when the form when the users press submit and return to main page when user press return - desktop', () =>{
     cy.viewport(1920, 1080)
     cy.visit('http://localhost:3000/').wait(1800)
     cy.get('.hidden > :nth-child(5) > a').click().wait(1900)
