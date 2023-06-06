@@ -18,7 +18,7 @@ export default function Home() {
                 <div>
                     <Link to='contact' smooth duration={500} className="group text-black w-fit px-6 py-3 my-2 flex items-center bg-[#eeeeee] rounded-md cursor-pointer hover:text-[#ff785d] hover:bg-[#fff3f1] hover:scale-105 duration-300 hover:ease-in-out drop-shadow-lg">
                         Contact
-                        <span className="group-hover:rotate-90 duration-300">
+                        <span data-cy="contact-but" className="group-hover:rotate-90 duration-300">
                             <MdKeyboardArrowRight size={25} className="ml-1"/>
                         </span>
                     </Link>

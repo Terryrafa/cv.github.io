@@ -57,10 +57,10 @@ export default function About() {
 
             {
               link.map(({id, child, href}) => (
-                <li key={id} 
+                <li key={id}
                 className='flex justify-between w-40 h-14 bg-[#ff785d] drop-shadow-lg rounded-md hover:bg-white hover:scale-105 hover:text-[#ff785d] px-4 duration-300 ease-in-out '>
 
-                <a href={href} target='_blank'
+                <a id='social' data-cy="social" href={href} target='_blank'
                   className='flex justify-between items-center w-full'>
                       {child}
                 </a>
